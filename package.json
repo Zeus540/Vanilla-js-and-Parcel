@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npm run clean && parcel public/index.html --out-dir development -p 3000",
+    "start": "npm run clean && parcel public/index.html --out-dir development ",
     "build": "rimraf ./dist && parcel build public/*.html --out-dir dist --public-url ./",
     "clean": "rimraf ./development && rimraf ./.cache"
   },
